@@ -1,0 +1,5 @@
+# Evita el acceso directo a las carpetas internas (solo con Apache + mod_rewrite).
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(src|datos|vistas)/ - [F,L]
+</IfModule>
