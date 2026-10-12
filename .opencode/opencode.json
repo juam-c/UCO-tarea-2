@@ -1,0 +1,11 @@
+{ 
+  "model": "anthropic/claude-sonnet-4-5",
+  "agent": "OrchestratorAgent",
+  "tools": {
+    "read": true,
+    "edit": true,
+    "bash": true,
+    "grep": true,
+    "lsp": true
+  }
+}
